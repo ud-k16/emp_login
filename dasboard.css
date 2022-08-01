@@ -1,0 +1,176 @@
+/* employee dasboard css */
+body{
+    /* background-color:rgb(20, 111, 190); */
+    background-color:rgb(36, 57, 75);
+    padding: 12px 30px 12px 30px;
+    
+}
+
+/* div{
+    background-color: aliceblue;
+   padding: 1%;
+} */
+
+h1{
+    color: rgb(166, 187, 187);
+
+}
+#heading{
+    color: rgb(166, 187, 187);
+    height: 10%;
+    font-size: 50px;
+    /* padding-top: 4%; */
+}
+#userName{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 15%;
+    color: rgb(166, 187, 187);
+    height: 10%;
+    margin:5px;
+    text-shadow: -2px 2px 4px rgb(107, 149, 177), 2px -2px 0 rgb(107, 149, 177);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* #NameRelatedDiv{
+    height: 100px;
+    width: 80%;
+    margin: 20px;
+    background-color: rgb(24, 175, 175);
+    flex-direction: row;
+    justify-items: left;
+  
+} */
+#listDiv{
+    align-self: center;
+    justify-self: center;
+    padding-left: 25%;
+    height: 60%;
+    width: 50%;
+
+   
+}
+.box{
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 10px 0px 10px 0px;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(107, 149, 177);
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: inset 5px 5px 5px 5px rgb(166, 187, 187);
+
+}
+/* main div for age */
+/* #AgeRelatedDiv{
+    margin:4px;
+    padding: 10px 0px 10px 0px;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(107, 149, 177);
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: row;
+    justify-items: left; */
+  
+/* } */ */
+/* main div for style */
+/* #TitleRelatedDiv{
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 10px 0px 10px 0px;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(107, 149, 177);
+    align-items: center;
+   
+    justify-content: space-around;
+    /* flex-direction: row;
+    justify-items: left; */
+  
+/* } */ */
+#nameBox{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    margin: 20px;
+    background-color:rgb(20, 111, 190);
+    color:white;
+   padding :3px
+}
+#ageBox{
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    background-color:rgb(20, 111, 190);
+    color: white;
+    padding: 3px;
+}
+#titleBox{
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    background-color:rgb(20, 111, 190);
+    color:white;
+    padding: 3px;
+}
+/* not used*/
+ #listPart{
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    /* background-color: rgb(15, 4, 15); */
+max-height: max-content;
+    align-items: center;
+    /* align-content: flex-start; */
+    /* margin: 1em;
+    border-width: 3cm; */
+}
+
+label{
+    color: rgb(129, 110, 110);
+}
+/* not used */
+.forChange{
+    font-size: xx-large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /* position: static; */
+   height: fit-content;
+   width: fit-content;
+   box-shadow: inset 0px 0px 6px 4px rgb(44, 43, 43);
+   margin: 20px;
+   /* background-color:rgb(20, 111, 190); */
+   color:white;
+  padding :3px;
+  border-radius: 4px;
+  background-color:rgb(36, 57, 75);
+}
+.items{
+   font-size: xx-large;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /* position: static; */
+   height: fit-content;
+   width: 33.3%;
+   margin: 20px;
+   /* background-color:rgb(20, 111, 190); */
+   color: rgb(176, 197, 197);
+  padding :3px;
+
+}
+#NameRelatedDiv{
+  visibility: hidden;
+}
+#AgeRelatedDiv{
+    visibility: hidden;
+    /* pointer-events: none; */
+}
+#TitleRelatedDiv{
+    visibility: hidden;
+}
