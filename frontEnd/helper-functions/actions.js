@@ -1,3 +1,4 @@
+// contains functions used in the frontend
 
 //not used 
 const listUserData = () => {
@@ -147,7 +148,7 @@ const userLogin = () => {
       if (result.authenticated) {
         // console.log(" result came")
         //when user validated redirected to mainpage
-        window.location = `http://127.0.0.1:8080/mainpage.html?uid=${uid}`
+        window.location = `http://127.0.0.1:8080/frontEnd/html/mainpage.html?uid=${uid}`
       }
       else {
         // else notify the user password mismatch
